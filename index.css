@@ -1,0 +1,43 @@
+*{
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+bOdy{
+    background-color: #bbbaba20;
+}
+#card-recipe{
+    width: 60%;
+    margin:  0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 30px 50px #00000020;
+}
+
+#card-recipe img{
+    width: 100%;
+}
+
+#card-recipe .card-recipe-content{
+    padding: 30px;
+}
+
+#card-recipe .card-recipe-content ol li, #card-recipe .card-recipe-content ul li{
+    margin-bottom: 10px;
+}
+
+#card-recipe .card-recipe-content button{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 0;
+    margin: 50px auto;
+    display: block;
+    padding: 16px 0;
+}
